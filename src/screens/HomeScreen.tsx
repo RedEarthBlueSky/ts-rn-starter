@@ -1,20 +1,15 @@
 import React from 'react'
 import { Text, StyleSheet } from 'react-native'
 
-// interfaces are used to describe objects
-type HomeScreenProps = {
-    HomeScreenMessage: string,
-}
-
-//  the use of React.FC is now discouraged
-const HomeScreen = ({HomeScreenMessage}: HomeScreenProps): JSX.Element => {
-    return <Text style={styles.text}>HomeScreen</Text>
-    // return <Text style={styles.text}>{HomeScreenMessage}</Text>
+const HomeScreen = (): JSX.Element => {
+    return <Text style={styles.H1_BOLD}>Home Screen</Text>
 }
 
 const styles = StyleSheet.create({
-    text: {
+    H1_BOLD: {
         fontSize: 30,
         fontWeight: "bold",
     },
 })
+
+export { HomeScreen }
