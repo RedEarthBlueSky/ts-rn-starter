@@ -53,17 +53,13 @@ const BasicButtons = StyleSheet.create({
   ButtonMedium: {
     alignItems: 'center',
     alignSelf: 'center',
-    backgroundColor: 'coral',
+    backgroundColor: 'blue',
     borderRadius: 5,
     height: 40, 
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     marginTop: 20,
+    paddingTop: 5,
     width: '60%', 
-  },
-  ButtonParent: {
-    alignSelf: 'center',
-    marginTop: 20,
-    width: '60%',
   },
 })
 

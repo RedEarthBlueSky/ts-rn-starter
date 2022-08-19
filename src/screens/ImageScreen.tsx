@@ -9,6 +9,6 @@ const ImageScreen = () => {
   )
 }
 
-export default ImageScreen
+export { ImageScreen }
 
 const styles = StyleSheet.create({})
