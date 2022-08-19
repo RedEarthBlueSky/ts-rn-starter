@@ -11,7 +11,7 @@ const navigator = createStackNavigator(
   {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
-      title: 'My Lekkle App',
+      title: 'App',
     }
   }
 )

@@ -20,6 +20,15 @@ const Spacing = StyleSheet.create({
   MarginL: {
     margin: 30,
   },
+  MarginM: {
+    margin: 20,
+  },
+  MarginS: {
+    margin: 10,
+  },
+  MarginXS: {
+    margin: 5,
+  }
 })
 
 const Typography = StyleSheet.create({
@@ -43,12 +52,18 @@ const Typography = StyleSheet.create({
 const BasicButtons = StyleSheet.create({
   ButtonMedium: {
     alignItems: 'center',
+    alignSelf: 'center',
     backgroundColor: 'coral',
     borderRadius: 5,
     height: 40, 
     justifyContent: 'center',
     marginTop: 20,
-    width: '100%', 
+    width: '60%', 
+  },
+  ButtonParent: {
+    alignSelf: 'center',
+    marginTop: 20,
+    width: '60%',
   },
 })
 
