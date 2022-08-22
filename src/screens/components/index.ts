@@ -1,3 +1,4 @@
+export * from './ImageDetail'
 
 //  Wrappers
 export * from './MainWrapper'

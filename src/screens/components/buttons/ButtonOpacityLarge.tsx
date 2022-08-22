@@ -14,7 +14,7 @@ const ButtonOpacityLarge = (props: ButtonProps): JSX.Element => {
         onPress={props.onPress}
         style={Styles.ButtonMediumShadow}
       >
-        <Text style={Styles.H3}>{props.title}</Text>
+        <Text style={Styles.H3_BUTTON_M}>{props.title}</Text>
       </TouchableOpacity>
     </View>
   )
