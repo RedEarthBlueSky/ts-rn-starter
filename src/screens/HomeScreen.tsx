@@ -36,6 +36,10 @@ const HomeScreen = (props: NavigationProps): JSX.Element => {
         onPress={() => props.navigation.navigate('Colors')}
         title='Color Screen'
       />
+      <ButtonOpacityLarge
+        onPress={() => props.navigation.navigate('Squares')}
+        title='Square Screen'
+      />
     </MainWrapper>
   )
 }

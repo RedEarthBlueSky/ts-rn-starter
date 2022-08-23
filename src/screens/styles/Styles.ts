@@ -41,6 +41,8 @@ const Typography = StyleSheet.create({
   },
   H2: {
     fontSize: 26,
+    margin: 0,
+    padding: 0,
   },
   H2_BOLD: {
     fontSize: 26,
@@ -61,10 +63,9 @@ const BasicButtons = StyleSheet.create({
     alignSelf: 'center',
     backgroundColor: 'blue',
     borderRadius: 5,
-    height: 40, 
-    justifyContent: 'flex-start',
-    marginTop: 10,
-    paddingTop: 5,
+    height: 35, 
+    justifyContent: 'center',
+    marginTop: 5,
     width: '60%', 
   },
 })
