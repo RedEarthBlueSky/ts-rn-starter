@@ -13,7 +13,6 @@ type NavigationProps = {
 }
 
 const HomeScreen = (props: NavigationProps): JSX.Element => {
-
   return (
     <MainWrapper>
       <Text style={Styles.H1_BOLD}>Home Screen</Text>
@@ -21,13 +20,21 @@ const HomeScreen = (props: NavigationProps): JSX.Element => {
         onPress={() => props.navigation.navigate('Components')}
         title='Components'
       />
-       <ButtonOpacityLarge
+      <ButtonOpacityLarge
         onPress={() => props.navigation.navigate('List')}
         title='Lists Demo'
       />
      <ButtonOpacityLarge
         onPress={() => props.navigation.navigate('ImageScreen')}
         title='Image Screen'
+      />
+      <ButtonOpacityLarge
+        onPress={() => props.navigation.navigate('Counter')}
+        title='Counter Screen'
+      />
+      <ButtonOpacityLarge
+        onPress={() => props.navigation.navigate('Colors')}
+        title='Color Screen'
       />
     </MainWrapper>
   )

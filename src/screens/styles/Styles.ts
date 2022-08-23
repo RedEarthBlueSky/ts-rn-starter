@@ -63,7 +63,7 @@ const BasicButtons = StyleSheet.create({
     borderRadius: 5,
     height: 40, 
     justifyContent: 'flex-start',
-    marginTop: 20,
+    marginTop: 10,
     paddingTop: 5,
     width: '60%', 
   },
