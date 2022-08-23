@@ -40,10 +40,16 @@ const Typography = StyleSheet.create({
     fontWeight: "bold",
   },
   H2: {
-    color: 'white',
     fontSize: 26,
   },
+  H2_BOLD: {
+    fontSize: 26,
+    fontWeight: 'bold'
+  },
   H3: {
+    fontSize: 20,
+  },
+  H3_BUTTON_M: {
     color: 'white',
     fontSize: 20,
   },
@@ -53,17 +59,13 @@ const BasicButtons = StyleSheet.create({
   ButtonMedium: {
     alignItems: 'center',
     alignSelf: 'center',
-    backgroundColor: 'coral',
+    backgroundColor: 'blue',
     borderRadius: 5,
     height: 40, 
-    justifyContent: 'center',
-    marginTop: 20,
+    justifyContent: 'flex-start',
+    marginTop: 10,
+    paddingTop: 5,
     width: '60%', 
-  },
-  ButtonParent: {
-    alignSelf: 'center',
-    marginTop: 20,
-    width: '60%',
   },
 })
 

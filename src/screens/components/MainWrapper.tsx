@@ -18,7 +18,8 @@ const styles = StyleSheet.create({
     mainWrapperStyles: {
         backgroundColor: '#fff',  // base
         height: '100%',
-        padding: 10,
+        margin: 0,
+        padding: 0,
         width: '100%',
     },
 })
