@@ -10,7 +10,7 @@ const TextScreen = () => {
 
   return (
     <MainWrapper>
-      <Text style={Styles.H1_BOLD}>TextScreen</Text>
+      <Text style={Styles.H1_BOLD}>Text Input Screen</Text>
       <TextInput 
         autoCapitalize='none'
         autoCorrect={false}
