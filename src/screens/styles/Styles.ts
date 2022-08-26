@@ -70,6 +70,28 @@ const BasicButtons = StyleSheet.create({
   },
 })
 
+const Layout = StyleSheet.create({ 
+  colorBox: {
+    height: 90, 
+    width: 100, 
+    alignSelf: 'center',
+    marginTop: 10,
+  },
+  TextInputMedium: {
+      backgroundColor: 'wheat',
+      borderColor: 'rgba(0, 0, 0, 0.2)',
+      borderWidth: 1,
+      borderRadius: 5,
+      height: 45, 
+      margin: 15,
+      marginBottom: 0,
+      marginTop: 10,
+      paddingLeft: 10,
+      width: '90%', 
+      fontSize: '20px'
+  },
+})
+
 const ShadowButtons = StyleSheet.create({
   ButtonMediumShadow: {
     ...Shadows.ButtonShadow,
@@ -86,6 +108,7 @@ const Styles = {
   ...Buttons,
   ...Typography,
   ...Spacing,
+  ...Layout,
 }
 
 export { Styles }

@@ -40,6 +40,10 @@ const HomeScreen = (props: NavigationProps): JSX.Element => {
         onPress={() => props.navigation.navigate('Squares')}
         title='Square Screen'
       />
+      <ButtonOpacityLarge
+        onPress={() => props.navigation.navigate('Text')}
+        title='Text Screen'
+      />
     </MainWrapper>
   )
 }

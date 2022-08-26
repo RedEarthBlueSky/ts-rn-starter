@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { Styles } from '../styles'
-import { ButtonOpacityLarge } from '../components'
+import { ButtonOpacityLarge } from './buttons'
 
 type colorCounterProps = {
   color: string
@@ -30,5 +30,3 @@ const ColorCounter = ({
 }
 
 export { ColorCounter }
-
-const styles = StyleSheet.create({})
