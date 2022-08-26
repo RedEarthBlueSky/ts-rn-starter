@@ -21,15 +21,15 @@ const reducer = (state: ColorState, action: ColorAction) => {
   const { type, payload } = action
   switch(type) {
     case 'change_red':
-      return red + payload > 255 || red - payload < 0 
-      ? state 
-      : {...state, red: red + payload}
+      return red + payload < 255 || red - payload > 0 
+      ? {...state, red: red + payload}
+      : state
     case 'change_green':
-      return green + payload > 255 || green - payload < 0 
+      return green + payload < 255 || green - payload > 0 
       ? state 
       : {...state, green: green + payload}
     case 'change_blue':
-      return blue + payload > 255 || blue - payload < 0 
+      return blue + payload < 255 || blue - payload > 0 
       ? state 
       :  {...state, blue: blue + payload}
     default: 
