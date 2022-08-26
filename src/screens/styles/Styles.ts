@@ -70,6 +70,15 @@ const BasicButtons = StyleSheet.create({
   },
 })
 
+const Layout = StyleSheet.create({ 
+  colorBox: {
+    height: 90, 
+    width: 100, 
+    alignSelf: 'center',
+    marginTop: 10,
+  }
+})
+
 const ShadowButtons = StyleSheet.create({
   ButtonMediumShadow: {
     ...Shadows.ButtonShadow,
@@ -86,6 +95,7 @@ const Styles = {
   ...Buttons,
   ...Typography,
   ...Spacing,
+  ...Layout,
 }
 
 export { Styles }
