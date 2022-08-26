@@ -88,7 +88,7 @@ const Layout = StyleSheet.create({
       marginTop: 10,
       paddingLeft: 10,
       width: '90%', 
-      fontSize: '20px'
+      fontSize: 20
   },
 })
 
